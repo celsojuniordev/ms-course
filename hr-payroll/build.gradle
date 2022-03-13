@@ -26,6 +26,10 @@ dependencies {
 
 	// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-openfeign
 	implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-openfeign', version: '3.0.6'
+
+	// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-ribbon
+	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-ribbon:2.1.6.RELEASE'
+
 }
 
 apply plugin: "io.spring.dependency-management"
