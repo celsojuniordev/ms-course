@@ -39,6 +39,7 @@ dependencyManagement {
 		mavenBom 'org.springframework.cloud:spring-cloud-dependencies:Hoxton.SR8'
 	}
 }
+
 tasks.named('test') {
 	useJUnitPlatform()
 }
