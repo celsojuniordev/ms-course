@@ -33,6 +33,9 @@ dependencies {
 	// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:2.2.10.RELEASE'
 
+	// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-hystrix
+	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-hystrix:2.1.6.RELEASE'
+
 }
 
 apply plugin: "io.spring.dependency-management"
