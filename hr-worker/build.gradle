@@ -20,7 +20,7 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	implementation 'org.springframework.cloud:spring-cloud-starter-config'
-
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 
 	// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:2.2.10.RELEASE'
